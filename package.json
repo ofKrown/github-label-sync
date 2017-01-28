@@ -1,0 +1,24 @@
+{
+  "name": "github-label-sync",
+  "version": "1.0.0",
+  "description": "Node driven CLI to sync labels between github repositories",
+  "main": "lib",
+  "author": "bernhard@trigo.at",
+  "scripts": {
+    "start": "node --harmony-async-await lib/index.js"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/bmatz/github-label-sync",
+  "repository": {
+  	"type": "git",
+	"url": "https://github.com/bmatz/github-label-sync.git"
+  },
+  "engine": {
+	  "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "github": "^8.1.1",
+    "prompt": "^1.0.0",
+    "ramda": "^0.23.0"
+  }
+}
