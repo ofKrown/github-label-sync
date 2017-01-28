@@ -39,6 +39,10 @@ Windows
 set GITHUB_API_TOKEN=123456789abcdef
 ```
 
+## Example
+
+![Example](github-label-sync-example.png)
+
 ## LICENSE
 
 MIT license. See the LICENSE file for details.
